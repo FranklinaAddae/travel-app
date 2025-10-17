@@ -1,29 +1,42 @@
 {
   "expo": {
-    "name": "project",
-    "slug": "project",
+    "name": "TravelMate",
+    "slug": "travelmate",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/travel.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/travel.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.travelmate.app",
+      "buildNumber": "1"
     },
     "android": {
+      "package": "com.travelmate.app",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/travel.png",
         "backgroundColor": "#ffffff"
       },
+      "permissions": [],
       "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d074b706-f9ee-4e5b-b9ca-db39774ad690"
+      }
     }
   }
 }

@@ -1,8 +1,8 @@
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
-// API Configuration
-const API_BASE_URL = 'http://192.168.43.232:5000/api';
+// API Configuration\\\\\
+const API_BASE_URL = 'https://travel-app-backend-bmja.onrender.com/api';
 
 // Create axios instance
 const api = axios.create({
@@ -15,6 +15,7 @@ const api = axios.create({
 
 // Token management
 const TOKEN_KEY = 'auth_token';
+
 
 export const getToken = async () => {
   try {

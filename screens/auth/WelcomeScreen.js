@@ -8,9 +8,7 @@ const { width, height } = Dimensions.get('window');
 export default function WelcomeScreen({ navigation }) {
   return (
     <ImageBackground
-      source={{
-        uri: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-      }}
+      source={require('../../assets/background.jpeg')}
       style={styles.container}
       resizeMode="cover"
     >

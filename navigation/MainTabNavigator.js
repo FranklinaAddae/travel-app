@@ -38,7 +38,7 @@ export default function MainTabNavigator() {
           borderTopColor: '#E5E7EB',
           paddingBottom: 8,
           paddingTop: 8,
-          height: 88,
+          height: 100,
         },
         tabBarLabelStyle: {
           fontSize: 12,
